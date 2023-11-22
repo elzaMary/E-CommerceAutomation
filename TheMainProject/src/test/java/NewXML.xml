@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+		<listener class-name="ThePackage1.ListenerCommands"/>
+	</listeners>
+  <test name="Test">
+    <classes>
+		<class name ="ThePackage1.MainHomeOp"/>
+		<class name="ThePackage1.RandL"/>
+		<class name="ThePackage1.DemoSearch"/>
+		<class name="ThePackage1.ForListeners"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
